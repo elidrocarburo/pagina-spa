@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+
+}
+
+.ancho {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+hr {
+  border: 3px #ff3281 solid;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.contenedor_logos {
+  vertical-align: middle;
+  display: inline-block;
+  width: 13%;
+  margin-left: 48px;
+}
+
+.contenedor_logos img {
+  width: 100%;
+}
+
+.contenedor_redes {
+  width: 65%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+.contenedor_redes a {
+  display: inline-block;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.contenedor_redes a img {
+  width: 100%;
+}
+
+
+.contenedor_menu {
+  border: 3px #333 solid;
+  margin-bottom: 15px;
+}
+
+.contenedor_menu a {
+  text-decoration: none;
+  display: inline-block;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 90px;
+}
+
+.contenedor_imagenprincipal {
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 325px;
+}
+
+h1 {
+  width: 700px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-size: 36px;
+  display: block;
+  margin-top: 50px;
+}
+
+.contenedor_imagenprincipal p {
+  color: white;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.boton_rosa {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ff3281;
+  color: white;
+  padding: 12px 30px;
+  margin-right: 20px;
+}
+
+.boton_transparente {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px #ff3281 solid;
+  color: white;
+  padding: 12px 25px;
+}
+
+.contenedor_informacion1 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin-left: 80px;
+}
+
+.contenedor_informacion1 h2 {
+  margin-bottom: 10px;
+}
+
+.contenedor_informacion1 p {
+  line-height: 30px;
+}
+
+.contenedor_imagenproducto1 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  margin-left: 50px;
+}
+
+.contenedor_imagenproducto1 img {
+  width: 100%;
+}
+
+.contenedor_talento {
+  background-color: #fff9f1;
+}
+
+.contenedor_imagentalento {
+  width: 38%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 60px;
+}
+
+.contenedor_imagentalento img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.contenedor_talento h2 {
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.contenedor_informacion2 {
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.contenedor_informacion2 p {
+  line-height: 28px;
+}
+
+.contenedor_promocion {
+  display: inline-block;
+  vertical-align: middle;
+  width: 43%;
+  margin-left: 55px;
+}
+
+.contenedor_dato h2 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.rosa {
+  color: #ff3281;
+}
+
+.contenedor_dato a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contenedor_formulario {
+  border: 3px #ff3281 solid;
+  border-radius: 8px;
+}
+
+.margen2 {
+  padding: 8px;
+}
+
+.campos {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px #bbbbbb solid;
+  margin: 15px 7px 10px 0px;
+}
+.campos:focus {
+  background-color: #e1f3f7;
+}
+
+.boton_negro {
+  padding: 8px;
+  width: 35%;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  margin: 15px 7px 10px 0px;
+}
+
+.contenedor_instalacion {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin-left: 15px;
+}
+.contenedor_instalacion h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.contenedor_instalacion iframe {
+  width: 100%;
+  height: 290px;
+  border-radius: 10px;
+}
+
+.contenedor_piepagina {
+  background-color: #fff9f1;
+}
+
+.contenedor_logopie {
+  vertical-align: middle;
+  display: inline-block;
+  width: 13%;
+  margin-left: 60px;
+}
+
+.contenedor_logopie img {
+  width: 100%;
+}
+
+.contenedor_informacionalumno {
+  vertical-align: middle;
+  display: inline-block;
+  width: 70%;
+  margin-left: 68px;
+  text-align: right;
+}
+
+.contenedor_informacionalumno p {
+  color: #ff3281;
+  font-weight: bold;
+}
